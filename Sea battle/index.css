@@ -1,0 +1,40 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.canvas-block canvas{
+	
+}
+
+.canvas-block .buttons{
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+}
+
+.canvas-block .button{
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	box-shadow: 2px 2px 5px #3352FE;
+	color: #3352FE;
+	text-align: center;
+	border: 1px solid #FBFBFF;
+	background-color: #FBFBFF;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.canvas-block .button:hover{
+	border: 1px solid #3352FE;
+}
+
+.canvas-block{
+	margin-top: 20px;
+	box-shadow: 2px 2px 20px #D7D7D7;
+	background-color: #FBFBFF;
+	position: relative;
+}
